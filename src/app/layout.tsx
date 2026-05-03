@@ -30,18 +30,6 @@ export const metadata: Metadata = {
   },
   description:
     "Empresa de reformas en Cambrils con sello mediterráneo. Pisos, casas de pueblo, segundas residencias, cocinas y baños llave en mano. Presupuesto sin coste: 877 278 164.",
-  keywords: [
-    "reformas Cambrils",
-    "reformas integrales Cambrils",
-    "reformas cocinas Cambrils",
-    "reformas baños Cambrils",
-    "reformas pisos Cambrils",
-    "reformas Vilafortuny",
-    "reformas Cap de Sant Pere",
-    "reformas Costa Daurada",
-    "reformas Baix Camp",
-    "empresa reformas Cambrils",
-  ],
   authors: [{ name: "R.A Reformas Cambrils" }],
   creator: "R.A Reformas Cambrils",
   publisher: "R.A Reformas Cambrils",
