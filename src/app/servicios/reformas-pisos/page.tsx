@@ -9,7 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Reformas de Pisos en Cambrils | RAC",
   description:
-    "Renovación y reforma de pisos a medida en Cambrils Mar, Vilafortuny, Centre Vila y L'Esquirol. Plantilla propia, coste pactado, garantía firmada. 877 278 109.",
+    "Renovación y reforma de pisos a medida en Cambrils Mar, Vilafortuny, Centre Vila y L'Esquirol. Plantilla propia, coste pactado, garantía firmada. 877 278 164.",
   alternates: { canonical: "/servicios/reformas-pisos" },
   openGraph: {
     title: "Reformas de Pisos en Cambrils · R.A Reformas",

@@ -9,7 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Reformas de Baños en Cambrils | RAC",
   description:
-    "Tu reforma de baño en Cambrils: cambio de bañera por ducha, griferías cromadas, porcelánico rectificado. Materiales que aguantan el salitre. 877 278 109.",
+    "Tu reforma de baño en Cambrils: cambio de bañera por ducha, griferías cromadas, porcelánico rectificado. Materiales que aguantan el salitre. 877 278 164.",
   alternates: { canonical: "/servicios/reformas-banos" },
   openGraph: {
     title: "Reformas de Baños en Cambrils · R.A Reformas",

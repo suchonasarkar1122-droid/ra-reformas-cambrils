@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Reformas en Riudoms · Empresa de Confianza | RAC",
-  description: "Reformas en Riudoms centre, masías y casas señoriales del Baix Camp. Plantilla propia con sede en Cambrils. Coste pactado y oficio tradicional. 877 278 109.",
+  description: "Reformas en Riudoms centre, masías y casas señoriales del Baix Camp. Plantilla propia con sede en Cambrils. Coste pactado y oficio tradicional. 877 278 164.",
   alternates: { canonical: "/zonas/reformas-riudoms" },
   openGraph: {
     title: "Reformas en Riudoms · R.A Reformas Cambrils",

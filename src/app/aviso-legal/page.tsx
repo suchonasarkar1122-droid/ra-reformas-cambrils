@@ -30,7 +30,7 @@ export default function AvisoLegalPage() {
             <ul className="list-disc pl-6 space-y-1 text-subtitle mt-3">
               <li><strong>Denominación comercial:</strong> R.A Reformas Cambrils</li>
               <li><strong>Domicilio:</strong> C/ Ramon Berenguer IV, 25, 43850 Cambrils, Tarragona</li>
-              <li><strong>Teléfono:</strong> 877 278 109</li>
+              <li><strong>Teléfono:</strong> 877 278 164</li>
               <li><strong>Email:</strong> info@rareformascambrils.es</li>
               <li><strong>Sitio web:</strong> rareformascambrils.es</li>
             </ul>

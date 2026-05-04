@@ -111,7 +111,7 @@ export default function CTAForm({ defaultServiceType = "" }: CTAFormProps) {
       </div>
 
       {error && (
-        <p className="text-red-400 text-xs text-center">No hemos podido enviar tu solicitud. Inténtalo otra vez o llámanos al 877 278 109.</p>
+        <p className="text-red-400 text-xs text-center">No hemos podido enviar tu solicitud. Inténtalo otra vez o llámanos al 877 278 164.</p>
       )}
 
       <button

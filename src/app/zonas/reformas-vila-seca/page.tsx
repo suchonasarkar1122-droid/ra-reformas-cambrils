@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Reformas en Vila-seca · Empresa de Confianza | RAC",
-  description: "Reformas en Vila-seca y La Pineda: pisos costeros, segundas residencias, locales junto a PortAventura. Plantilla propia desde Cambrils. 877 278 109.",
+  description: "Reformas en Vila-seca y La Pineda: pisos costeros, segundas residencias, locales junto a PortAventura. Plantilla propia desde Cambrils. 877 278 164.",
   alternates: { canonical: "/zonas/reformas-vila-seca" },
   openGraph: {
     title: "Reformas en Vila-seca · R.A Reformas Cambrils",
