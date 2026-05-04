@@ -9,7 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Reformas Integrales en Cambrils | RAC",
   description:
-    "Reformas integrales llave en mano en Cambrils: pisos, casas de pueblo, segundas residencias y chalets. Plantilla propia, coste pactado y garantía firmada. 877 278 164.",
+    "Reformas integrales llave en mano en Cambrils: pisos, casas de pueblo, segundas residencias y chalets. Plantilla propia, coste pactado y garantía firmada. 877 278 109.",
   alternates: { canonical: "/servicios/reformas-integrales" },
   openGraph: {
     title: "Reformas Integrales en Cambrils · R.A Reformas",

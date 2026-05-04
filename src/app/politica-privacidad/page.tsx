@@ -27,7 +27,7 @@ export default function PoliticaPrivacidadPage() {
             <ul className="list-disc pl-6 space-y-1 text-subtitle">
               <li><strong>Responsable:</strong> R.A Reformas Cambrils</li>
               <li><strong>Dirección:</strong> C/ Ramon Berenguer IV, 25, 43850 Cambrils, Tarragona</li>
-              <li><strong>Teléfono:</strong> 877 278 164</li>
+              <li><strong>Teléfono:</strong> 877 278 109</li>
               <li><strong>Email:</strong> info@rareformascambrils.es</li>
             </ul>
           </div>

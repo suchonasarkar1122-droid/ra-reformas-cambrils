@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Reformas en Salou · Empresa de Confianza | RAC",
-  description: "Reformas integrales y de pisos en Salou: Salou Centre, Cap Salou y Capellans. Plantilla propia desde Cambrils, coste pactado y plazos firmes. 877 278 164.",
+  description: "Reformas integrales y de pisos en Salou: Salou Centre, Cap Salou y Capellans. Plantilla propia desde Cambrils, coste pactado y plazos firmes. 877 278 109.",
   alternates: { canonical: "/zonas/reformas-salou" },
   openGraph: {
     title: "Reformas en Salou · R.A Reformas Cambrils",

@@ -7,7 +7,7 @@ const CTAForm = dynamic(() => import("@/components/CTAForm"));
 export const metadata: Metadata = {
   title: "Contacto y valoración gratuita · R.A Reformas Cambrils",
   description:
-    "Contacta con R.A Reformas Cambrils: visita gratuita, valoración escrita en 24h y atención directa. Cambrils, Salou, Reus, Vila-seca y Mont-roig. Llama al 877 278 164.",
+    "Contacta con R.A Reformas Cambrils: visita gratuita, valoración escrita en 24h y atención directa. Cambrils, Salou, Reus, Vila-seca y Mont-roig. Llama al 877 278 109.",
   alternates: { canonical: "/contacto" },
   openGraph: {
     title: "Contacto · R.A Reformas Cambrils",
@@ -69,8 +69,8 @@ export default function ContactoPage() {
                   </div>
                   <h3 className="font-body font-bold text-dark text-base uppercase">Teléfono</h3>
                 </div>
-                <a href="tel:+34877278164" className="font-body font-semibold text-accent text-lg hover:underline">
-                  877 278 164
+                <a href="tel:+34877278109" className="font-body font-semibold text-accent text-lg hover:underline">
+                  877 278 109
                 </a>
                 <p className="text-subtitle text-sm mt-1">Lunes a viernes: 8:30 - 19:00</p>
               </div>

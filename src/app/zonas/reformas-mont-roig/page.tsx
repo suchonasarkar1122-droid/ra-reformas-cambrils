@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Reformas en Mont-roig del Camp · Empresa de Confianza | RAC",
-  description: "Reformas en Mont-roig del Camp y Miami Platja: casas de pueblo, segundas residencias y masías agrícolas. Plantilla propia desde Cambrils. 877 278 164.",
+  description: "Reformas en Mont-roig del Camp y Miami Platja: casas de pueblo, segundas residencias y masías agrícolas. Plantilla propia desde Cambrils. 877 278 109.",
   alternates: { canonical: "/zonas/reformas-mont-roig" },
   openGraph: {
     title: "Reformas en Mont-roig del Camp · R.A Reformas Cambrils",

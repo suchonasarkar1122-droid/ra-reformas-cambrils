@@ -17,7 +17,7 @@ export default function ServiceSchema({ name, description, url, image }: Service
       "@type": "HomeAndConstructionBusiness",
       "@id": "https://rareformascambrils.es/#business",
       name: "R.A Reformas Cambrils",
-      telephone: "+34 877 278 164",
+      telephone: "+34 877 278 109",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Carrer Ramon Berenguer IV, 25",

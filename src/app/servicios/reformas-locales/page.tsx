@@ -9,7 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Reformas de Locales en Cambrils | RAC",
   description:
-    "Reforma de locales comerciales en Cambrils, Salou y Reus: paseo marítimo, casco antiguo y polígonos. Cumplimiento normativo y plazos para abrir a tiempo. 877 278 164.",
+    "Reforma de locales comerciales en Cambrils, Salou y Reus: paseo marítimo, casco antiguo y polígonos. Cumplimiento normativo y plazos para abrir a tiempo. 877 278 109.",
   alternates: { canonical: "/servicios/reformas-locales" },
   openGraph: {
     title: "Reformas de Locales en Cambrils · R.A Reformas",

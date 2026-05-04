@@ -128,7 +128,7 @@ export default function CookiesPage() {
               6. Contacto
             </h2>
             <p className="text-subtitle leading-relaxed">
-              Si tienes alguna duda sobre esta Política de Cookies, puedes contactarnos en <a href="mailto:info@rareformascambrils.es" className="text-accent underline">info@rareformascambrils.es</a> o en el teléfono 877 278 164.
+              Si tienes alguna duda sobre esta Política de Cookies, puedes contactarnos en <a href="mailto:info@rareformascambrils.es" className="text-accent underline">info@rareformascambrils.es</a> o en el teléfono 877 278 109.
             </p>
           </div>
         </div>

@@ -7,7 +7,7 @@ export default function StructuredData() {
     url: "https://rareformascambrils.es",
     logo: "https://rareformascambrils.es/images/hero-reforma-mediterranea-cambrils.webp",
     image: "https://rareformascambrils.es/images/hero-reforma-mediterranea-cambrils.webp",
-    telephone: "+34 877 278 164",
+    telephone: "+34 877 278 109",
     email: "info@rareformascambrils.es",
     priceRange: "€€",
     address: {

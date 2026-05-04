@@ -8,7 +8,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Reformas de Cocinas en Cambrils | RAC",
   description:
-    "Especialistas en reformas de cocinas en Cambrils: cocinas abiertas, isla central, encimeras de Dekton y carpintería resistente al clima marítimo. 877 278 164.",
+    "Especialistas en reformas de cocinas en Cambrils: cocinas abiertas, isla central, encimeras de Dekton y carpintería resistente al clima marítimo. 877 278 109.",
   alternates: { canonical: "/servicios/reformas-cocinas" },
   openGraph: {
     title: "Reformas de Cocinas en Cambrils · R.A Reformas",
