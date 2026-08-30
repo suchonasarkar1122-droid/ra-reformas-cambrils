@@ -20,8 +20,8 @@ export default function StructuredData() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 41.0667,
-      longitude: 1.0500,
+      latitude: 41.07007629999999,
+      longitude: 1.0540353999999998,
     },
     areaServed: [
       { "@type": "City", name: "Cambrils" },
