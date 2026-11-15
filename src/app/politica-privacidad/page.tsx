@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de Privacidad · R.A Reformas Cambrils",
+  title: "Política de Privacidad",
   description: "Política de privacidad de R.A Reformas Cambrils. Información sobre el tratamiento de datos personales conforme al RGPD y a la LOPDGDD.",
   alternates: { canonical: "/politica-privacidad" },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: true },
 };
 
 export default function PoliticaPrivacidadPage() {

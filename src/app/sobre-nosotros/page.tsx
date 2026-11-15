@@ -6,9 +6,9 @@ import CTAButtons from "@/components/CTAButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Sobre Nosotros · R.A Reformas Cambrils",
+  title: "Sobre Nosotros",
   description:
-    "Conoce R.A Reformas Cambrils: artesanos del Baix Camp con 15 años reformando pisos, casas de pueblo y segundas residencias en la Costa Daurada. Plantilla propia y trato directo.",
+    "Conoce R.A Reformas Cambrils: artesanos del Baix Camp con 15 años reformando pisos, casas de pueblo y segundas residencias en la Costa Daurada.",
   alternates: { canonical: "/sobre-nosotros" },
   openGraph: {
     title: "Sobre Nosotros - R.A Reformas Cambrils",
@@ -240,6 +240,25 @@ export default function SobreNosotrosPage() {
       </section>
 
       {/* ============ CTA ============ */}
+      <section className="bg-beige px-5 py-16 md:py-24">
+        <div className="mx-auto max-w-[800px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Así trabajamos</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] uppercase text-dark leading-[1.1] mb-6">Cómo es una obra con R.A Reformas en Cambrils</h2>
+          <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
+          <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
+            <p>Más allá de los oficios, lo que define una reforma es cómo se organiza. Esto es lo que puedes esperar de nosotros desde la primera llamada hasta la entrega.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Primero, escuchar y medir</h3>
+            <p>En la visita no vendemos nada: vemos la vivienda, preguntamos cómo se usa y revisamos lo que no se ve a simple vista, como el cuadro eléctrico, las bajantes o las manchas de humedad. Con eso preparamos una propuesta por partidas que puedas comparar con calma.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Conocer el clima de la costa</h3>
+            <p>Trabajar en Cambrils enseña cosas que no salen en los catálogos. El salitre que traen los temporales de levante oxida herrajes y barandillas; la humedad de las noches de invierno condensa en las paredes frías de los pisos cerrados; y en la Vila, la humedad del terreno sube por los muros de planta baja. Elegimos materiales y soluciones pensando en todo eso, y lo explicamos con detalle en nuestro artículo sobre <Link href="/blog/humedad-condensacion-invierno-cambrils" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">humedad y condensación en invierno</Link>.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Papeleo y vecinos</h3>
+            <p>Nos ocupamos de la comunicación previa o la licencia de obras ante el Ajuntament, del contenedor y de avisar a la comunidad. En edificios del Port o del paseo, coordinamos horarios y accesos para que la obra moleste lo menos posible.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Entrega y después</h3>
+            <p>Al terminar repasamos la vivienda contigo punto por punto y te dejamos la documentación de garantía. Si estás fuera, hacemos ese repaso por videollamada. Puedes ver lo que hacemos en <Link href="/servicios" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">nuestros servicios de reforma</Link> y en qué municipios trabajamos en <Link href="/zonas" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">zonas de servicio</Link>.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-accent px-5 py-16 md:py-20">
         <div className="mx-auto max-w-[800px] text-center flex flex-col items-center gap-6">
           <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-white uppercase leading-[1.1]">

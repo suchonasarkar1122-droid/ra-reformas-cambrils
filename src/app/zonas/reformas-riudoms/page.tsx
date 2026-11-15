@@ -5,7 +5,7 @@ import CTAButtons from "@/components/CTAButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas en Riudoms · Empresa de Confianza | RAC",
+  title: "Reformas en Riudoms · Empresa de Confianza",
   description: "Reformas en Riudoms centre, masías y casas señoriales del Baix Camp. Plantilla propia con sede en Cambrils. Coste pactado y oficio tradicional. 877 278 164.",
   alternates: { canonical: "/zonas/reformas-riudoms" },
   openGraph: {
@@ -67,6 +67,25 @@ export default function ZonaRiudomsPage() {
                 <span className="font-body font-bold text-accent text-sm inline-flex items-center gap-1 mt-auto pt-2">Más info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg></span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-beige px-5 py-16 md:py-24">
+        <div className="mx-auto max-w-[800px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Casas con historia</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] uppercase text-dark leading-[1.1] mb-6">Qué cuidar al reformar una casa en Riudoms</h2>
+          <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
+          <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
+            <p>Riudoms es un pueblo de interior, rodeado de campos de avellanos y olivos, donde muchas familias de la zona conservan la casa de los abuelos. Reformarla bien es casi siempre un equilibrio entre conservar y adaptar.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Casas entre medianeras del centro</h3>
+            <p>Son casas estrechas y profundas, de dos o tres plantas, con las estancias encadenadas de la calle al patio. Para ganar luz solemos actuar en el patio y en la escalera, y aprovechamos la planta superior, antiguamente usada como almacén, para dormitorios o una zona de estar. Cuando hay que cambiar forjados o mover muros, hablamos de <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reforma integral</Link> con proyecto técnico.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Masías y casas de campo</h3>
+            <p>En el entorno agrícola hay masías con naves anexas y almacenes que hoy se quieren convertir en vivienda. Ahí la prioridad es la cubierta, la evacuación del agua y el saneamiento, que en muchos casos depende de una fosa propia. Antes de diseñar comprobamos qué permite la normativa urbanística para suelo no urbanizable.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Humedad y frío de interior</h3>
+            <p>Lejos del mar el salitre deja de ser el problema, pero aparecen otros: humedad del terreno en planta baja y noches de invierno frías en casas sin aislamiento. Por eso recomendamos morteros de cal que dejen respirar el muro, ventanas nuevas y, cuando se pueda, aislar la cubierta. Si te interesa el tema, lo desarrollamos en nuestra guía sobre <Link href="/blog/humedad-condensacion-invierno-cambrils" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">humedad y condensación en invierno</Link>.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Organizar la obra en un núcleo antiguo</h3>
+            <p>Las calles del centro de Riudoms son estrechas y no siempre permiten dejar un contenedor delante de la casa. Antes de empezar estudiamos el acceso, pedimos la ocupación de vía pública que haga falta y planificamos las entregas de material para molestar lo mínimo a los vecinos.</p>
           </div>
         </div>
       </section>

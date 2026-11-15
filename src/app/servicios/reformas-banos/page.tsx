@@ -7,7 +7,7 @@ import ServiceSchema from "@/components/ServiceSchema";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas de Baños en Cambrils | RAC",
+  title: "Reformas de Baños en Cambrils",
   description:
     "Tu reforma de baño en Cambrils: cambio de bañera por ducha, griferías cromadas, porcelánico rectificado. Materiales que aguantan el salitre. 877 278 164.",
   alternates: { canonical: "/servicios/reformas-banos" },
@@ -94,6 +94,26 @@ export default function ReformasBanosPage() {
         </div>
       </section>
 
+      <section className="bg-beige px-5 py-16 md:py-24">
+        <div className="mx-auto max-w-[800px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Cada vivienda, su baño</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] uppercase text-dark leading-[1.1] mb-6">Cómo planteamos el baño según el tipo de casa en Cambrils</h2>
+          <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
+          <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
+            <p>No se reforma igual el baño interior de un apartamento del Regueral que el de una casa de planta baja en la Vila. Antes de hablar de azulejos miramos tres cosas: por dónde evacua el agua, cómo se ventila la estancia y cuánto tiempo pasa la vivienda cerrada.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Apartamentos del Port, la Llosa y el Regueral</h3>
+            <p>Buena parte de los bloques cercanos al puerto y a primera línea se levantaron entre los años setenta y noventa. Sus baños suelen ser interiores, sin ventana, con un conducto de ventilación compartido que muchas veces está obstruido o directamente no tira. Por eso, en estos pisos el extractor con sensor de humedad no es un capricho: es lo que evita que el techo vuelva a llenarse de puntos negros al primer invierno.</p>
+            <p>También revisamos la conexión con la bajante comunitaria. Si es de fibrocemento o de un PVC antiguo, no la tocamos sin hablar antes con la administración de la finca, y te explicamos qué parte de la instalación es tuya y cuál de la comunidad.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Casas de la Vila y viviendas en planta baja</h3>
+            <p>En las casas del casco antiguo el problema suele venir del suelo: humedad que sube por los muros y que acaba levantando la pintura del zócalo. Alicatar hasta el techo encima de una pared húmeda solo esconde el problema unos meses. Primero se trata el muro y se deja respirar; después se elige el revestimiento.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Chalets que pasan meses cerrados</h3>
+            <p>En urbanizaciones como Mas Clariana, Mas d’en Bosch o Cambrils Badia es habitual que la casa quede cerrada de octubre a Semana Santa. Los sifones se secan, suben olores y el agua queda estancada en las tuberías. Instalamos llaves de corte por estancia para que puedas cerrar el agua del baño al marcharte y elegimos sifones y desagües de fácil registro.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Baños para alquiler turístico</h3>
+            <p>Si el piso se alquila por semanas, priorizamos lo que aguanta: mampara fija en lugar de corredera, sanitario suspendido que se limpia en un minuto, grifería termostática y accesorios bien anclados. Si estás pensando en renovar la vivienda entera, mira también cómo trabajamos las <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas de pisos en Cambrils</Link>, y si el baño se te llena de vaho en invierno, te puede servir nuestra guía sobre <Link href="/blog/humedad-condensacion-invierno-cambrils" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">humedad y condensación en casas de la costa</Link>.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-beige-warm px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-14">
@@ -107,6 +127,8 @@ export default function ReformasBanosPage() {
               { q: "¿Cuánto tarda?", a: "Reforma estándar de baño completo: 10-15 días. Cambio rápido de bañera por ducha sin tocar el resto: 5-7 días. En segundas residencias coordinamos con tu calendario para que esté listo al llegar." },
               { q: "¿Garantizáis impermeabilización?", a: "Sí. Aplicamos lámina impermeabilizante bajo el plato de ducha y en el muro hasta 1,8 m de altura, con ejecución cuidada y materiales adecuados. Te entregamos la obra con garantía firmada sobre materiales y mano de obra." },
               { q: "¿Hace falta licencia?", a: "Solo declaración responsable, que tramitamos nosotros. La licencia mayor solo aparece si modificas la posición del baño (afecta saneamiento general del edificio)." },
+              { q: "¿Podéis reformar el baño si no estoy en Cambrils durante la obra?", a: "Sí. Es algo muy habitual en segundas residencias. Nos dejas las llaves, acordamos los acabados antes de empezar y te enviamos fotos del avance en cada fase importante: demolición, impermeabilización, alicatado y montaje final." },
+              { q: "¿Qué hago si mi baño no tiene ventana?", a: "Instalamos un extractor con sensor de humedad conectado al conducto existente o, si no tira, buscamos una salida alternativa. Combinado con pintura antimoho y juntas de buena calidad, el baño interior deja de acumular condensación." },
             ].map((faq, i) => (
               <details key={i} className="group bg-white rounded-[12px] shadow-sm overflow-hidden">
                 <summary className="flex items-center gap-4 p-6 cursor-pointer list-none [&::-webkit-details-marker]:hidden">

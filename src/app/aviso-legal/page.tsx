@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aviso Legal · R.A Reformas Cambrils",
+  title: "Aviso Legal",
   description: "Aviso legal de R.A Reformas Cambrils. Información sobre el titular del sitio web, condiciones de uso y propiedad intelectual.",
   alternates: { canonical: "/aviso-legal" },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: true },
 };
 
 export default function AvisoLegalPage() {

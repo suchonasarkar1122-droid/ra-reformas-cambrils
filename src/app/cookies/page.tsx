@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de Cookies · R.A Reformas Cambrils",
+  title: "Política de Cookies",
   description: "Política de cookies de R.A Reformas Cambrils. Información sobre las cookies utilizadas en este sitio web y cómo gestionarlas.",
   alternates: { canonical: "/cookies" },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: true },
 };
 
 export default function CookiesPage() {

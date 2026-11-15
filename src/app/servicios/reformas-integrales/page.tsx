@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import CTAButtons from "@/components/CTAButtons";
@@ -7,9 +7,9 @@ import ServiceSchema from "@/components/ServiceSchema";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas Integrales en Cambrils | RAC",
+  title: "Reformas Integrales en Cambrils",
   description:
-    "Reformas integrales llave en mano en Cambrils: pisos, casas de pueblo, segundas residencias y chalets. Plantilla propia, coste pactado y garantía firmada. 877 278 164.",
+    "Reformas integrales llave en mano en Cambrils: pisos, casas de pueblo, segundas residencias y chalets. Plantilla propia, coste pactado y garantía firmada.",
   alternates: { canonical: "/servicios/reformas-integrales" },
   openGraph: {
     title: "Reformas Integrales en Cambrils · R.A Reformas",
@@ -151,6 +151,23 @@ export default function ReformasIntegralesPage() {
                 <span className="font-body font-semibold text-dark text-sm">{item}</span>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-5 py-16 md:py-24">
+        <div className="mx-auto max-w-[800px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Antes de firmar</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] uppercase text-dark leading-[1.1] mb-6">Qué decidir antes de una reforma integral en Cambrils</h2>
+          <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
+          <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
+            <p>Una reforma integral sale bien cuando las decisiones grandes se toman antes de demoler. Estas son las que más influyen en el resultado en las viviendas de la zona.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Distribución y uso de la vivienda</h3>
+            <p>Pensamos contigo cómo vas a vivir la casa: todo el año, solo en verano o en alquiler. Un chalet en Mas d’en Bosch que se usa los fines de semana no necesita lo mismo que una casa en la Vila donde vive una familia con niños. A partir de ahí decidimos qué tabiques se mueven y dónde van cocina y baños; si solo necesitas actualizar un piso sin tocar la distribución, quizá te encaje mejor una <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reforma de piso</Link>.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Permisos del Ajuntament</h3>
+            <p>Si la obra afecta a estructura, fachada o distribución general, hace falta licencia de obras y, en muchos casos, proyecto técnico. Si no, suele bastar con una comunicación previa. Te decimos cuál corresponde desde la primera visita y nos encargamos del trámite.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Clima, aislamiento y salitre</h3>
+            <p>Una integral es el momento de mejorar ventanas, aislamiento y ventilación, porque las paredes están abiertas. En Cambrils, donde los inviernos son suaves pero húmedos, esto marca la diferencia entre una casa fresca y una casa con moho; lo explicamos con detalle en nuestro artículo sobre <Link href="/blog/humedad-condensacion-invierno-cambrils" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">humedad y condensación en invierno</Link>.</p>
           </div>
         </div>
       </section>

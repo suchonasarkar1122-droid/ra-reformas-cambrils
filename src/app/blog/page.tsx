@@ -4,9 +4,9 @@ import Link from "next/link";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Blog de Reformas en Cambrils · Consejos y Tendencias | RAC",
+  title: "Blog de Reformas en Cambrils",
   description:
-    "Blog de R.A Reformas Cambrils: precios reales de reforma en la Costa Daurada, tendencias en cocinas mediterráneas y subvenciones del Baix Camp.",
+    "Blog de R.A Reformas Cambrils: precios de reforma, humedades en invierno, tendencias en cocinas y subvenciones para viviendas de la Costa Daurada.",
   alternates: { canonical: "/blog" },
   openGraph: {
     title: "Blog · R.A Reformas Cambrils",
@@ -17,6 +17,16 @@ export const metadata: Metadata = {
 };
 
 const posts = [
+  {
+    slug: "humedad-condensacion-invierno-cambrils",
+    title: "Humedad y condensación en invierno: guía para casas de Cambrils",
+    excerpt:
+      "Moho, cristales empañados y paredes frías en pisos y chalets de Cambrils: cómo distinguir condensación, filtración y capilaridad, y cuándo conviene una reforma.",
+    image: "/images/dormitorio-renovado-cambrils.webp",
+    imageAlt: "Dormitorio sin humedades en una vivienda de Cambrils",
+    date: "15 noviembre 2026",
+    category: "Mantenimiento",
+  },
   {
     slug: "cuanto-cuesta-reformar-vivienda-cambrils",
     title: "¿Cuánto cuesta reformar una vivienda en Cambrils en 2026?",

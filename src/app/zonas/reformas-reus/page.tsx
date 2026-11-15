@@ -5,7 +5,7 @@ import CTAButtons from "@/components/CTAButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas en Reus · Empresa de Confianza | RAC",
+  title: "Reformas en Reus · Empresa de Confianza",
   description: "Reformas integrales y de pisos en Reus, capital del Baix Camp: Centre, Mas Iglesias, barrio Gaudí. Plantilla propia con sede en Cambrils. 877 278 164.",
   alternates: { canonical: "/zonas/reformas-reus" },
   openGraph: {

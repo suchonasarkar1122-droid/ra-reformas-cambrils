@@ -5,9 +5,9 @@ import HeroService from "@/components/HeroService";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Servicios de Reformas en Cambrils | RAC",
+  title: "Servicios de Reformas en Cambrils",
   description:
-    "Servicios de reformas en Cambrils y el Baix Camp: reformas integrales, cocinas, baños, pisos y locales. Plantilla propia, coste pactado y garantía firmada. 877 278 164.",
+    "Servicios de reformas en Cambrils y el Baix Camp: reformas integrales, cocinas, baños, pisos y locales. Plantilla propia, coste pactado y garantía firmada.",
   alternates: { canonical: "/servicios" },
   openGraph: {
     title: "Servicios de Reformas · R.A Reformas Cambrils",
@@ -138,6 +138,27 @@ export default function ServiciosPage() {
       </section>
 
       {/* ============ POR QUÉ NOSOTROS ============ */}
+      <section className="bg-beige-warm px-5 py-16 md:py-24">
+        <div className="mx-auto max-w-[800px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Cómo elegir</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] uppercase text-dark leading-[1.1] mb-6">Qué tipo de reforma necesita tu vivienda en Cambrils</h2>
+          <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
+          <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
+            <p>A veces el cliente llega pidiendo una cocina y acaba necesitando renovar la electricidad de toda la casa; otras veces pide una integral y bastaría con baño, suelos y pintura. Esta guía rápida te ayuda a situarte antes de la visita.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Si la casa está bien de instalaciones</h3>
+            <p>Cuando la fontanería y el cuadro eléctrico están en buen estado, se puede actuar por estancias. Lo más habitual en Cambrils es empezar por la <Link href="/servicios/reformas-banos" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reforma del baño</Link>, sobre todo en apartamentos con bañera antigua, o por la <Link href="/servicios/reformas-cocinas" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reforma de la cocina</Link> cuando se quiere abrir al salón y ganar luz.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Si el piso tiene más de 35 o 40 años sin tocar</h3>
+            <p>En los bloques del Port, la Llosa o el Regueral construidos en los setenta y ochenta, lo sensato suele ser una <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reforma de piso</Link> completa: instalaciones nuevas, carpintería con mejor aislamiento y una distribución adaptada a vivir todo el año, no solo en agosto.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Si es una casa de pueblo o un chalet</h3>
+            <p>Las casas de la Vila y los chalets de Vilafortuny, Mas Clariana o Cambrils Badia suelen pedir una <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reforma integral</Link>: cubiertas, estructura de madera, aislamiento y una sola dirección de obra que coordine todos los oficios.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Si es un negocio</h3>
+            <p>Bares, tiendas, consultas y apartamentos de alquiler turístico tienen requisitos propios de actividad, accesibilidad e instalaciones. Los tratamos como <Link href="/servicios/reformas-locales" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas de locales</Link>, con un calendario pensado para abrir en la fecha que necesitas.</p>
+            <p>En cualquier caso, la visita es gratuita y sales de ella con una idea clara del alcance, los permisos que pedirá el Ajuntament de Cambrils y los plazos realistas. También damos servicio en los municipios que verás en <Link href="/zonas" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">zonas de servicio</Link>.</p>
+            <p>Una última recomendación: si dudas entre dos tipos de obra, no decidas por el nombre del servicio sino por el estado real de la vivienda. Una revisión de instalaciones y de humedades en la visita suele aclarar en pocos minutos si basta con una actuación por estancias o si conviene hacerlo todo de una vez.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-dark px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[1200px] text-center">
           <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">

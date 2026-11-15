@@ -1,13 +1,14 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
+import Link from "next/link";
 import dynamic from "next/dynamic";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 const CTAForm = dynamic(() => import("@/components/CTAForm"));
 
 export const metadata: Metadata = {
-  title: "Contacto y valoración gratuita · R.A Reformas Cambrils",
+  title: "Contacto y valoración gratuita",
   description:
-    "Contacta con R.A Reformas Cambrils: visita gratuita, valoración escrita en 24h y atención directa. Cambrils, Salou, Reus, Vila-seca y Mont-roig. Llama al 877 278 164.",
+    "Contacta con R.A Reformas Cambrils: visita gratuita, valoración escrita en 24h y atención directa. Cambrils, Salou, Reus, Vila-seca y Mont-roig.",
   alternates: { canonical: "/contacto" },
   openGraph: {
     title: "Contacto · R.A Reformas Cambrils",
@@ -156,6 +157,22 @@ export default function ContactoPage() {
                 </ul>
               </div>
             </aside>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-5 py-16 md:py-24">
+        <div className="mx-auto max-w-[800px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Después de escribirnos</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] uppercase text-dark leading-[1.1] mb-6">Qué pasa cuando nos pides presupuesto</h2>
+          <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
+          <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
+            <p>Contestamos personalmente cada solicitud. Para que la primera conversación sea útil, te contamos cómo seguimos y qué información nos ayuda.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Datos que nos ayudan</h3>
+            <p>Indica la zona de la vivienda (por ejemplo el Port, la Vila, Vilafortuny o una urbanización como Cambrils Badia), los metros aproximados, si es vivienda habitual, segunda residencia o alquiler turístico, y qué te gustaría cambiar. Si puedes, adjunta fotos o un plano cuando te escribamos: con eso preparamos mejor la visita.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">La visita y la propuesta</h3>
+            <p>Concertamos una visita en la vivienda o, si estás fuera, una videollamada con alguien que pueda abrirnos. Después recibes una valoración por partidas con el alcance, los plazos orientativos y el trámite que corresponde ante el Ajuntament. Si aún no sabes qué tipo de obra necesitas, puedes echar un vistazo antes a <Link href="/servicios" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">nuestros servicios</Link>, por ejemplo a <Link href="/servicios/reformas-banos" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas de baños</Link> o <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas integrales</Link>.</p>
+            <p>Si la vivienda es una segunda residencia y no vives en la zona, no hace falta que vengas a Cambrils para empezar: podemos hacer la primera revisión con fotos y vídeo y concertar la visita técnica cuando alguien pueda abrirnos.</p>
           </div>
         </div>
       </section>

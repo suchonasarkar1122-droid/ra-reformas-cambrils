@@ -4,7 +4,7 @@ import HeroService from "@/components/HeroService";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Zonas de servicio · Reformas en el Baix Camp y Costa Daurada",
+  title: "Zonas de servicio",
   description:
     "Cobertura desde Cambrils a Salou, Reus, Mont-roig del Camp, Vila-seca y Riudoms. Reformas integrales con plantilla propia en todo el Baix Camp y Costa Daurada.",
   alternates: { canonical: "/zonas" },
@@ -76,6 +76,27 @@ export default function ZonasPage() {
                 </span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-beige-warm px-5 py-16 md:py-24">
+        <div className="mx-auto max-w-[800px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Cómo trabajamos la comarca</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] uppercase text-dark leading-[1.1] mb-6">Cambrils como base: barrios, urbanizaciones y municipios vecinos</h2>
+          <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
+          <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
+            <p>La mayor parte de nuestras obras están en el propio término de Cambrils, que es mucho más variado de lo que parece desde el paseo. A partir de ahí nos movemos a los municipios cercanos con la misma plantilla.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Dentro de Cambrils</h3>
+            <p>En el barrio del Port y en la zona de la Llosa y el Regueral predominan los pisos y apartamentos de los años setenta a noventa, muchos de segunda residencia o alquiler turístico. En la Vila, el núcleo antiguo del interior, las casas de pueblo con vigas de madera y muros de carga. Vilafortuny, hacia Salou, combina chalets y bloques junto a la playa. Y hacia poniente están Cambrils Badia y urbanizaciones como Mas Clariana o Mas d’en Bosch, con casas unifamiliares que pasan parte del año cerradas.</p>
+            <p>Cada una de estas zonas tiene su propio desgaste: el salitre en primera línea, la humedad del terreno en las plantas bajas de la Vila o la falta de uso en invierno en las urbanizaciones. Lo tenemos en cuenta al proponer una <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reforma de piso</Link> o una <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reforma integral</Link>.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Costa: Salou, Vila-seca y Mont-roig</h3>
+            <p>Hacia el este, <Link href="/zonas/reformas-salou" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">Salou</Link> y <Link href="/zonas/reformas-vila-seca" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">Vila-seca con La Pineda</Link> repiten muchos de los retos de Cambrils: apartamentos turísticos, comunidades grandes y obras que deben terminar antes de la temporada. Hacia el oeste, <Link href="/zonas/reformas-mont-roig" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">Mont-roig del Camp y Miami Platja</Link> mezclan urbanizaciones de playa con un núcleo interior de casas de piedra.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Interior: Riudoms y alrededores</h3>
+            <p>Tierra adentro, <Link href="/zonas/reformas-riudoms" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">Riudoms</Link> y su entorno agrícola son casas de pueblo y masías, donde se trabaja más con cal, madera y piedra. El clima cambia: menos salitre y más frío nocturno en invierno.</p>
+            <p>Si tu municipio no está en la lista, llámanos igualmente: te diremos con sinceridad si podemos atender la obra con la calidad y la frecuencia de visitas que necesita.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Misma forma de trabajar en todos los municipios</h3>
+            <p>Trabajemos en Cambrils o en un pueblo vecino, el planteamiento es el mismo: visita previa, propuesta por partidas, un único responsable de obra y la gestión del permiso que corresponda en cada ayuntamiento. Cada municipio tiene sus propios impresos y plazos para la comunicación previa o la licencia de obras, y los tenemos en cuenta al preparar el calendario.</p>
           </div>
         </div>
       </section>

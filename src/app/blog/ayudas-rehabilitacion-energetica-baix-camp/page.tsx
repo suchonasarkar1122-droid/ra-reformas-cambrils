@@ -4,9 +4,9 @@ import Link from "next/link";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Ayudas a la rehabilitación energética en el Baix Camp 2026",
+  title: { absolute: "Ayudas a la rehabilitación energética en el Baix Camp 2026" },
   description:
-    "Subvenciones disponibles en el Baix Camp y la Costa Daurada para rehabilitar tu vivienda: Next Generation, ICF, programas autonómicos catalanes y deducción IRPF.",
+    "Subvenciones disponibles en el Baix Camp y la Costa Daurada para rehabilitar tu vivienda: Next Generation, ICF, programas autonómicos catalanes y deducción.",
   alternates: { canonical: "/blog/ayudas-rehabilitacion-energetica-baix-camp" },
   openGraph: {
     title: "Ayudas a la rehabilitación energética en el Baix Camp 2026",
@@ -106,6 +106,19 @@ export default function BlogAyudasBaixCamp() {
             </p>
             <p className="text-subtitle leading-relaxed">
               Conviene avisar de tu intención de pedir ayuda <strong>antes</strong> de empezar la obra: hay procedimientos que requieren la solicitud previa al inicio de los trabajos para que la subvención sea válida.
+            </p>
+
+            <h2 className="font-display font-extrabold text-[24px] md:text-[32px] uppercase text-dark mt-12 mb-4">Antes de pedir una ayuda, revisa la convocatoria vigente</h2>
+            <p className="text-subtitle leading-relaxed">
+              Las ayudas a la rehabilitación cambian con frecuencia: se abren y cierran convocatorias, se agotan fondos y se ajustan requisitos y porcentajes. Las cifras de este artículo son orientativas; antes de decidir la obra, comprueba la convocatoria vigente en la web de la Agència de l’Habitatge de Catalunya, del ICAEN o de tu ayuntamiento, y consulta con tu asesor fiscal todo lo relativo a deducciones en la renta.
+            </p>
+            <h2 className="font-display font-extrabold text-[24px] md:text-[32px] uppercase text-dark mt-12 mb-4">Qué mejoras tienen más sentido en Cambrils</h2>
+            <p className="text-subtitle leading-relaxed">
+              En una vivienda de costa con inviernos suaves, las actuaciones que más se notan suelen ser las ventanas con rotura de puente térmico, el aislamiento de cubiertas en casas y áticos, y la sustitución de calderas o radiadores eléctricos antiguos por bomba de calor. En pisos cerrados buena parte del invierno, mejorar el aislamiento en los puntos fríos reduce también la condensación y el moho, algo que explicamos en nuestra guía sobre <Link href="/blog/humedad-condensacion-invierno-cambrils" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">humedad y condensación en invierno</Link>.
+            </p>
+            <h2 className="font-display font-extrabold text-[24px] md:text-[32px] uppercase text-dark mt-12 mb-4">Integrarlo en la reforma</h2>
+            <p className="text-subtitle leading-relaxed">
+              La forma más eficiente de aprovechar estas ayudas es incluir la mejora energética en una obra que ya ibas a hacer. Si vas a renovar la vivienda entera, lo planificamos dentro de una <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reforma integral</Link>; si solo cambias ventanas y climatización en un apartamento, puede encajar en una <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reforma de piso</Link> más acotada.
             </p>
 
             <div className="bg-accent/10 border border-accent/20 rounded-[16px] p-6 md:p-8 my-10">

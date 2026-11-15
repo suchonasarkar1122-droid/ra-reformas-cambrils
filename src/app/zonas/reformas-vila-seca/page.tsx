@@ -5,7 +5,7 @@ import CTAButtons from "@/components/CTAButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas en Vila-seca · Empresa de Confianza | RAC",
+  title: "Reformas en Vila-seca · Empresa de Confianza",
   description: "Reformas en Vila-seca y La Pineda: pisos costeros, segundas residencias, locales junto a PortAventura. Plantilla propia desde Cambrils. 877 278 164.",
   alternates: { canonical: "/zonas/reformas-vila-seca" },
   openGraph: {
@@ -29,6 +29,7 @@ const faqs = [
   { q: "¿Trabajáis con apartamentos turísticos junto a PortAventura?", a: "Es una zona muy activa. Adaptamos pisos para alquiler vacacional con licencia HUT, materiales para alta rotación y distribuciones funcionales. Coordinamos para minimizar el impacto en temporadas de máxima ocupación." },
   { q: "¿Hay diferencia entre reformar en Vila-seca centre y en La Pineda?", a: "Sí. Vila-seca centre tiene casas de pueblo y pisos antiguos del núcleo histórico que requieren más trabajo manual. La Pineda son edificios modernos junto a la playa, con sus propias particularidades de salitre y comunidades grandes." },
   { q: "¿Distancia desde Cambrils?", a: "Apenas 12 minutos por la N-340. Cobertura habitual y diaria. Formamos parte del mismo eje costero." },
+  { q: "¿Se puede reformar un piso de La Pineda en verano?", a: "Se puede, pero no es lo recomendable: muchas comunidades restringen obras ruidosas en temporada alta y el acceso con material se complica. Lo más práctico es concentrar la obra entre octubre y mayo." },
 ];
 
 export default function ZonaVilaSecaPage() {
@@ -67,6 +68,24 @@ export default function ZonaVilaSecaPage() {
                 <span className="font-body font-bold text-accent text-sm inline-flex items-center gap-1 mt-auto pt-2">Más info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg></span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-beige px-5 py-16 md:py-24">
+        <div className="mx-auto max-w-[800px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Pueblo y playa</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] uppercase text-dark leading-[1.1] mb-6">Reformar en Vila-seca: lo que hay que saber de cada núcleo</h2>
+          <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
+          <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
+            <p>Vila-seca tiene un núcleo urbano con vida todo el año y una franja costera, La Pineda, que se llena en verano. La reforma se plantea distinto en cada uno.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">El núcleo de Vila-seca</h3>
+            <p>Alrededor del casco antiguo y del castillo hay casas entre medianeras, algunas con patio interior, y bloques de pisos de los años sesenta a noventa. En las casas antiguas solemos encontrar forjados de madera, instalaciones por superficie y cubiertas que necesitan revisión. En los pisos, lo habitual es renovar cocina, baño y electricidad y ganar luz uniendo estancias, como explicamos en <Link href="/servicios/reformas-cocinas" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas de cocinas</Link>.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">La Pineda y el frente marítimo</h3>
+            <p>En La Pineda los edificios de apartamentos y los hoteles reconvertidos sufren el mismo desgaste que los de Cambrils: barandillas oxidadas, carpinterías que pierden estanqueidad y terrazas con filtraciones. Para pisos que se alquilan en temporada, elegimos acabados resistentes y fáciles de reponer, y organizamos la obra en los meses de menos ocupación para no chocar con la comunidad.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Obra planificada con la comunidad</h3>
+            <p>Las comunidades grandes de la costa suelen tener normas sobre horarios, uso de ascensores y protección de zonas comunes. Te ayudamos a comunicar la obra al administrador y preparamos la documentación que se suele pedir. Si es un negocio, la tramitación de actividad la explicamos en <Link href="/servicios/reformas-locales" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas de locales</Link>.</p>
+            <p>Si la vivienda está vacía durante la obra, te enviamos fotos del avance en cada fase y coordinamos con la administración de la finca cualquier incidencia, para que no tengas que desplazarte salvo para la entrega.</p>
           </div>
         </div>
       </section>

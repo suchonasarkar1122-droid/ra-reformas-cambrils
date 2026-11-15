@@ -4,7 +4,7 @@ import Link from "next/link";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Tendencias en cocinas mediterráneas 2026 · Diseño y materiales",
+  title: "Tendencias en cocinas mediterráneas 2026",
   description:
     "Cocinas con luz mediterránea: islas centrales, encimeras de Dekton y madera natural. Tendencias para reformar tu cocina en Cambrils y la Costa Daurada en 2026.",
   alternates: { canonical: "/blog/tendencias-cocinas-mediterraneas-2026" },
@@ -55,7 +55,7 @@ export default function BlogTendenciasCocinas() {
         <div className="mx-auto max-w-[780px]">
           <div className="prose prose-lg max-w-none font-body text-dark">
             <p className="text-lg text-subtitle leading-relaxed">
-              La cocina ya no es un cuarto cerrado donde se cocina y se va. En 2026, en una vivienda de la Costa Daurada, es el espacio donde la familia se reúne, los amigos se sientan al final de un sobaquillo y el sol de la tarde entra dorado. Estas son las tendencias reales que estamos aplicando en las cocinas que reformamos en Cambrils, Salou, Reus y el resto del Baix Camp.
+              La cocina ya no es un cuarto cerrado donde se cocina y se va. En 2026, en una vivienda de la Costa Daurada, es el espacio donde la familia se reúne, los amigos se sientan al final de una comida larga y el sol de la tarde entra dorado. Estas son las tendencias reales que estamos aplicando en las cocinas que reformamos en Cambrils, Salou, Reus y el resto del Baix Camp.
             </p>
 
             <h2 className="font-display font-extrabold text-[24px] md:text-[32px] uppercase text-dark mt-12 mb-4">1. Cocina abierta al salón</h2>
@@ -101,6 +101,19 @@ export default function BlogTendenciasCocinas() {
             <h2 className="font-display font-extrabold text-[24px] md:text-[32px] uppercase text-dark mt-12 mb-4">8. Almacenaje extremo</h2>
             <p className="text-subtitle leading-relaxed">
               Cajones grandes en lugar de puertas con baldas, columnas extraíbles para despensa, sistemas para reciclar separado bajo el fregadero, especieros estrechos. Las cocinas modernas ganan al detalle: que cada robot, sartén o tupper tenga su sitio.
+            </p>
+
+            <h2 className="font-display font-extrabold text-[24px] md:text-[32px] uppercase text-dark mt-12 mb-4">Tendencias que conviene adaptar a la costa</h2>
+            <p className="text-subtitle leading-relaxed">
+              No todo lo que se ve en revistas funciona igual en un piso junto al mar. Los tiradores y perfiles de latón sin tratar se oscurecen con el salitre; las encimeras porosas absorben manchas si la cocina se usa intensamente en verano; y los muebles de fondo de madera maciza necesitan una cocina bien ventilada para no deformarse. En Cambrils solemos aplicar la tendencia, pero con versiones más resistentes: herrajes de acero inoxidable, frentes con buen canto sellado y encimeras compactas.
+            </p>
+            <h2 className="font-display font-extrabold text-[24px] md:text-[32px] uppercase text-dark mt-12 mb-4">Cocinas pequeñas en apartamentos del Port</h2>
+            <p className="text-subtitle leading-relaxed">
+              Muchos apartamentos cercanos al puerto tienen cocinas de pocos metros, a veces con ventana a un patio interior. Aquí la mejor tendencia es la sencilla: muebles altos hasta el techo para ganar almacenaje, colores claros, una sola encimera continua y una buena campana. Si se puede abrir hacia el salón sin tocar un muro de carga, la sensación de espacio cambia por completo.
+            </p>
+            <h2 className="font-display font-extrabold text-[24px] md:text-[32px] uppercase text-dark mt-12 mb-4">Cocinas de casa de pueblo en la Vila</h2>
+            <p className="text-subtitle leading-relaxed">
+              En las casas del casco antiguo la tendencia de recuperar materiales tiene todo el sentido: vigas de madera vistas, baldosa hidráulica, muros encalados. Lo combinamos con instalaciones nuevas y una iluminación cuidada para que la cocina sea práctica sin perder carácter. Si estás pensando en tu cocina, te contamos cómo la planteamos en nuestra página de <Link href="/servicios/reformas-cocinas" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas de cocinas</Link> y, si forma parte de una renovación mayor, en <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas integrales</Link>.
             </p>
 
             <div className="bg-accent/10 border border-accent/20 rounded-[16px] p-6 md:p-8 my-10">

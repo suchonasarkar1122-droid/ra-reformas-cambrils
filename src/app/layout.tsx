@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   title: {
-    default: "Reformas en Cambrils · Cocinas, Baños y Viviendas | RAC",
-    template: "%s | R.A Reformas Cambrils",
+    default: "Reformas en Cambrils · Cocinas, Baños y Viviendas | R.A",
+    template: "%s | R.A Reformas",
   },
   description:
     "Empresa de reformas en Cambrils con sello mediterráneo. Pisos, casas de pueblo, segundas residencias, cocinas y baños llave en mano. Presupuesto sin coste: 877 278 164.",

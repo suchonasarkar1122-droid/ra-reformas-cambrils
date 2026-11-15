@@ -6,7 +6,7 @@ import ServiceSchema from "@/components/ServiceSchema";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas de Cocinas en Cambrils | RAC",
+  title: "Reformas de Cocinas en Cambrils",
   description:
     "Especialistas en reformas de cocinas en Cambrils: cocinas abiertas, isla central, encimeras de Dekton y carpintería resistente al clima marítimo. 877 278 164.",
   alternates: { canonical: "/servicios/reformas-cocinas" },
@@ -87,7 +87,7 @@ export default function ReformasCocinasPage() {
                 En las viviendas de Cambrils Mar y Vilafortuny, abrir la cocina al salón gana metros, gana luz y multiplica el valor del piso. Trabajamos con muebles lacados resistentes a la humedad, encimeras de Dekton, Silestone o piedra natural y griferías cromadas pensadas para soportar el agua salina.
               </p>
               <p className="font-body text-subtitle text-base leading-relaxed max-w-[520px]">
-                Cocinas pensadas para sobreros, calçotades y comidas largas: isla central con bancada, frigorífico americano, placa de inducción amplia y zona office orientada a la luz natural. En segundas residencias, cuidamos la robustez para uso intensivo en verano.
+                Cocinas pensadas para sobremesas, calçotades y comidas largas: isla central con bancada, frigorífico americano, placa de inducción amplia y zona office orientada a la luz natural. En segundas residencias, cuidamos la robustez para uso intensivo en verano.
               </p>
               <p className="font-body font-semibold text-dark text-base">Diseño 3D antes de empezar la obra. Cero sorpresas en obra.</p>
               <CTAButtons />
@@ -124,6 +124,25 @@ export default function ReformasCocinasPage() {
         </div>
       </section>
 
+      <section className="bg-beige px-5 py-16 md:py-24">
+        <div className="mx-auto max-w-[800px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Antes de elegir muebles</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] uppercase text-dark leading-[1.1] mb-6">Lo que revisamos en una cocina de Cambrils antes de diseñarla</h2>
+          <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
+          <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
+            <p>Una cocina bonita que no funciona se nota a la semana. Por eso la visita técnica empieza por lo que no se ve: humos, desagües, potencia eléctrica y la forma en que realmente usas la cocina a lo largo del año.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Salida de humos y ventilación</h3>
+            <p>En muchos pisos de la zona del Port y del Regueral la campana expulsa a un patio de luces compartido o a un conducto que no llega a cubierta. Antes de prometer una campana potente comprobamos por dónde puede salir el aire. Si no hay conducto válido, planteamos una campana de recirculación con filtros de carbón y lo decimos claro desde el principio, para que no haya sorpresas.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Potencia eléctrica para inducción y horno</h3>
+            <p>La instalación de muchas viviendas de veraneo se pensó para una nevera y poco más. Una placa de inducción amplia, horno, lavavajillas y aire acondicionado funcionando a la vez piden circuitos independientes y, a veces, aumentar la potencia contratada. Lo revisamos en la visita y lo incluimos en el presupuesto, no a mitad de obra.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Materiales según el uso real</h3>
+            <p>Si la cocina se usa todo el año, se puede apostar por madera natural y acabados más delicados. Si es una segunda residencia en Vilafortuny o un apartamento que se alquila en verano, conviene un frente de muebles que soporte golpes y limpieza intensa, herrajes de calidad que no se oxiden con la humedad del mar y una encimera sin poros. En nuestro artículo sobre <Link href="/blog/tendencias-cocinas-mediterraneas-2026" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">tendencias en cocinas mediterráneas</Link> comparamos las encimeras que más instalamos.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Casas de pueblo y cocinas con carácter</h3>
+            <p>En la Vila encontramos cocinas con bóvedas, vigas y muros gruesos que no admiten un mueble estándar. Ahí trabajamos a medida y aprovechamos nichos y huecos de la propia casa. Cuando la cocina forma parte de una renovación mayor, la coordinamos dentro de una <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reforma integral</Link> para que fontanería, electricidad y suelos se hagan una sola vez.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-beige-warm px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-14">
@@ -137,6 +156,8 @@ export default function ReformasCocinasPage() {
               { q: "¿Tiráis tabiques sin afectar a la estructura?", a: "Antes de tocar nada hacemos un estudio del muro: si es de carga, planteamos una viga IPN o HEB y tramitamos la licencia con el Ayuntamiento de Cambrils. Si no, abrimos la cocina al salón en una semana." },
               { q: "¿Qué encimera aguanta mejor el clima costero?", a: "Dekton y Silestone son los más resistentes al sol, calor y humedad. La piedra natural (mármol, granito) es preciosa pero requiere mantenimiento. Te asesoramos según el uso real de la cocina." },
               { q: "¿Cuánto tarda la obra de cocina?", a: "Una cocina sin cambio de tabiques: 3-4 semanas. Con apertura y obra de albañilería: 5-7 semanas. Si cambiamos electricidad y fontanería completas, puede llegar a 8 semanas." },
+              { q: "¿Puedo seguir usando la vivienda mientras reformáis la cocina?", a: "En la mayoría de pisos, sí, aunque durante unas semanas no tendrás cocina operativa. Te ayudamos a montar un rincón provisional con microondas y nevera en otra estancia y organizamos el trabajo para que el polvo quede contenido." },
+              { q: "¿Hacéis la cocina antes del verano en segundas residencias?", a: "Es lo más habitual. Lo ideal es cerrar diseño y materiales en invierno para empezar la obra en cuanto lleguen los muebles y tenerla terminada antes de que la familia vuelva." },
             ].map((faq, i) => (
               <details key={i} className="group bg-white rounded-[12px] shadow-sm overflow-hidden">
                 <summary className="flex items-center gap-4 p-6 cursor-pointer list-none [&::-webkit-details-marker]:hidden">

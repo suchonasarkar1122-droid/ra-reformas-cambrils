@@ -5,7 +5,7 @@ import CTAButtons from "@/components/CTAButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas en Mont-roig del Camp · Empresa de Confianza | RAC",
+  title: "Reformas en Mont-roig del Camp",
   description: "Reformas en Mont-roig del Camp y Miami Platja: casas de pueblo, segundas residencias y masías agrícolas. Plantilla propia desde Cambrils. 877 278 164.",
   alternates: { canonical: "/zonas/reformas-mont-roig" },
   openGraph: {
@@ -29,6 +29,7 @@ const faqs = [
   { q: "¿Reformáis masías y casas antiguas?", a: "Es una de nuestras especialidades. Trabajamos cal, mortero tradicional, vigas de madera y muros de piedra de las masías de la zona. Conservamos el carácter rural respetando la normativa de patrimonio del Ayuntamiento de Mont-roig del Camp." },
   { q: "¿Qué tarda una reforma en Miami Platja?", a: "Para un piso costero de 70-90 m²: 8-12 semanas. Para un apartamento turístico con HUT: solemos planificar fuera de temporada (octubre a marzo) para no afectar al alquiler de verano." },
   { q: "¿Cuánto se tarda en llegar desde Cambrils?", a: "Mont-roig Vila está a 15 minutos por carretera interior. Miami Platja, en la N-340, también a 15 minutos por la costa. Cobertura habitual sin sobrecostes." },
+  { q: "¿Cambian los materiales entre Miami Platja y Mont-roig Vila?", a: "Sí. En la costa priorizamos resistencia al salitre y a la humedad ambiental; en el interior, transpirabilidad de los muros, aislamiento térmico y respeto por la cal y la madera existentes." },
 ];
 
 export default function ZonaMontRoigPage() {
@@ -67,6 +68,23 @@ export default function ZonaMontRoigPage() {
                 <span className="font-body font-bold text-accent text-sm inline-flex items-center gap-1 mt-auto pt-2">Más info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg></span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-beige px-5 py-16 md:py-24">
+        <div className="mx-auto max-w-[800px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Costa e interior</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] uppercase text-dark leading-[1.1] mb-6">Dos formas de reformar en Mont-roig del Camp</h2>
+          <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
+          <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
+            <p>Pocos municipios de la zona cambian tanto en tan pocos kilómetros. Entre la playa de Miami Platja y el núcleo de Mont-roig hay una diferencia de clima, de casas y de prioridades que hay que tener en cuenta desde el presupuesto.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Miami Platja y sus urbanizaciones</h3>
+            <p>La parte costera creció con apartamentos y casas adosadas pensadas para el verano. Muchas tienen ya varias décadas y piden lo mismo que los pisos de Cambrils Badia, que están al lado: carpintería que cierre bien, persianas que no se atasquen con el salitre, instalaciones renovadas y baños sin bañera. En las casas con jardín revisamos también el estado de los muros perimetrales y la evacuación del agua de lluvia, que en los episodios fuertes de otoño puede entrar por puertas y garajes.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Mont-roig Vila y las masías</h3>
+            <p>En el interior las casas son de muros gruesos, cubiertas de teja y forjados de madera. Aquí la humedad no viene del mar sino del terreno, y las noches de invierno son bastante más frías que en la costa. Por eso solemos combinar la reforma con mejoras de aislamiento en la cubierta y ventanas nuevas. Si la casa necesita intervenir en estructura, lo planteamos como una <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reforma integral</Link> con su proyecto y su licencia.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Accesos y suministros en el campo</h3>
+            <p>En masías alejadas del núcleo organizamos el acceso de camiones, el acopio de material y, si hace falta, agua y electricidad provisionales para la obra. Todo ello se refleja en el presupuesto desde el principio para que no aparezca como un extra.</p>
           </div>
         </div>
       </section>

@@ -5,7 +5,7 @@ import CTAButtons from "@/components/CTAButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas en Salou · Empresa de Confianza | RAC",
+  title: "Reformas en Salou · Empresa de Confianza",
   description: "Reformas integrales y de pisos en Salou: Salou Centre, Cap Salou y Capellans. Plantilla propia desde Cambrils, coste pactado y plazos firmes. 877 278 164.",
   alternates: { canonical: "/zonas/reformas-salou" },
   openGraph: {
@@ -29,6 +29,7 @@ const faqs = [
   { q: "¿Trabajáis con apartamentos turísticos (HUT)?", a: "Sí. Conocemos las exigencias del registro HUT en Cataluña y reformamos teniendo en cuenta materiales resistentes a uso intensivo, distribuciones funcionales y cumplimiento de la normativa de habitabilidad." },
   { q: "¿Hay distancia entre Cambrils y Salou?", a: "Apenas 8 minutos en coche. Estamos en obra cada día sin sobrecoste. Para nuestro equipo, Salou y Cambrils se trabajan como una misma zona." },
   { q: "¿Tramitáis licencias en el Ayuntamiento de Salou?", a: "Sí. Estamos al día con declaraciones responsables, licencias de obra mayor y normativa de actividad. En zonas turísticas ofrecemos planificación específica para no afectar a vecinos en alquiler." },
+  { q: "¿Qué pasa con la humedad en los apartamentos cerrados en invierno?", a: "Es uno de los problemas más comunes en Salou. Un piso cerrado varios meses junto al mar acumula humedad y moho en armarios y paredes frías. Lo resolvemos con ventilación, aislamiento en los puntos fríos y pintura adecuada; lo explicamos en nuestro artículo sobre humedad y condensación en invierno." },
 ];
 
 export default function ZonaSalouPage() {
@@ -66,6 +67,25 @@ export default function ZonaSalouPage() {
                 <span className="font-body font-bold text-accent text-sm inline-flex items-center gap-1 mt-auto pt-2">Más info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg></span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-beige px-5 py-16 md:py-24">
+        <div className="mx-auto max-w-[800px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Conocer el terreno</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] uppercase text-dark leading-[1.1] mb-6">Viviendas de Salou: qué nos encontramos en cada zona</h2>
+          <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
+          <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
+            <p>Salou y Cambrils comparten costa, clima y buena parte de su forma de construir, pero cada zona de Salou tiene su propia lógica de obra.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Salou Centre y el paseo</h3>
+            <p>Alrededor del paseo Jaume I y de las calles comerciales predominan los bloques de apartamentos de varias alturas con comunidades grandes, ascensores compartidos y normas internas sobre horarios de obra. Aquí lo más importante es planificar bien la logística: dónde se carga el material, cuándo se puede usar el ascensor y cómo se protegen las zonas comunes.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Cap Salou y las calas</h3>
+            <p>En la zona del cabo hay chalets y edificios escalonados con vistas al mar, muchas veces con accesos en pendiente y calles estrechas. Las terrazas grandes y las piscinas son habituales, y con ellas los problemas de filtraciones hacia la planta inferior. Antes de cambiar el pavimento exterior revisamos la impermeabilización y los desagües.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Capellans, Llevant y la zona de Barenys</h3>
+            <p>Son zonas con mucho apartamento turístico y segunda residencia. Las obras se concentran entre octubre y abril y el objetivo casi siempre es el mismo: tener la vivienda lista para la primera temporada. Para estos pisos recomendamos materiales de uso intensivo y soluciones fáciles de mantener a distancia, como las que explicamos en <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas de pisos</Link>.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Desde Cambrils, sin perder tiempo</h3>
+            <p>Salou queda junto a Vilafortuny, por lo que trabajamos allí con la misma organización que en Cambrils. Si tienes un negocio en el paseo, consulta también nuestra página de <Link href="/servicios/reformas-locales" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas de locales</Link>.</p>
           </div>
         </div>
       </section>

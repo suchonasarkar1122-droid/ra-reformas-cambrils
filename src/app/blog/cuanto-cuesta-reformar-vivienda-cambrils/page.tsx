@@ -4,9 +4,9 @@ import Link from "next/link";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "¿Cuánto cuesta reformar una vivienda en Cambrils en 2026?",
+  title: { absolute: "¿Cuánto cuesta reformar una vivienda en Cambrils en 2026?" },
   description:
-    "Guía de precios para reformar pisos costeros, casas de pueblo y segundas residencias en Cambrils. Desglose por m², partidas detalladas y consejos para optimizar el coste.",
+    "Guía de precios para reformar pisos costeros, casas de pueblo y segundas residencias en Cambrils.",
   alternates: { canonical: "/blog/cuanto-cuesta-reformar-vivienda-cambrils" },
   openGraph: {
     title: "¿Cuánto cuesta reformar una vivienda en Cambrils en 2026?",
@@ -140,6 +140,22 @@ export default function BlogCosteCambrils() {
               <li><strong>No elijas la oferta más barata.</strong> Suele faltar partida o cubrirla con material que no resiste. Compara con honestidad.</li>
               <li><strong>Trabaja con plantilla propia.</strong> Las cadenas de subcontratas encarecen y no cubren la garantía cuando algo falla.</li>
             </ol>
+
+            <h2 className="font-display font-extrabold text-[24px] md:text-[32px] uppercase text-dark mt-12 mb-4">Lo que suele quedar fuera del presupuesto</h2>
+            <p className="text-subtitle leading-relaxed">
+              Al comparar ofertas, fíjate en lo que no aparece. Las partidas que más se olvidan en Cambrils son la tasa y el impuesto municipal de obras, el contenedor y su permiso de ocupación de vía pública, la protección de zonas comunes en edificios con comunidad y la gestión de residuos. También los boletines de instalación eléctrica cuando se cambia el cuadro y, en pisos antiguos, la posible retirada de elementos de fibrocemento, que requiere una empresa autorizada.
+            </p>
+            <p className="text-subtitle leading-relaxed">
+              Ninguna de estas partidas es grande por sí sola, pero juntas pueden desequilibrar un presupuesto ajustado. Pide que aparezcan por escrito o que se indique claramente que no están incluidas.
+            </p>
+            <h2 className="font-display font-extrabold text-[24px] md:text-[32px] uppercase text-dark mt-12 mb-4">Segunda residencia: el coste de no estar</h2>
+            <p className="text-subtitle leading-relaxed">
+              Si la vivienda es de veraneo y vives lejos, cuenta con que habrá decisiones que tomar a distancia. Lo que más dinero ahorra es cerrar todos los acabados antes de empezar: azulejos, grifería, puertas y muebles de cocina. Cada viaje extra para elegir un material retrasa la obra y, a veces, obliga a reprogramar oficios. Si el piso está en una comunidad con limitaciones en verano, tener la obra lista para empezar en octubre es la mejor forma de cumplir plazos.
+            </p>
+            <h2 className="font-display font-extrabold text-[24px] md:text-[32px] uppercase text-dark mt-12 mb-4">Por dónde empezar si el presupuesto no llega</h2>
+            <p className="text-subtitle leading-relaxed">
+              Si no puedes hacerlo todo a la vez, ordena las prioridades por lo que es más difícil de rehacer después: primero instalaciones, ventanas y aislamiento; después baños y cocina; y por último pintura, suelos y mobiliario. Hay más detalle por estancia en nuestras páginas de <Link href="/servicios/reformas-banos" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas de baños</Link> y <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas de pisos</Link>, y si tu vivienda sufre moho en invierno, revisa antes nuestra guía sobre <Link href="/blog/humedad-condensacion-invierno-cambrils" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">humedad y condensación</Link>: a veces el problema se resuelve con ventilación y no con una obra mayor.
+            </p>
 
             <div className="bg-accent/10 border border-accent/20 rounded-[16px] p-6 md:p-8 my-10">
               <h3 className="font-body font-bold text-dark text-lg uppercase mb-3">¿Quieres saber qué costaría tu reforma?</h3>

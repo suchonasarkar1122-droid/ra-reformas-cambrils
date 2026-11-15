@@ -7,9 +7,9 @@ import ServiceSchema from "@/components/ServiceSchema";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas de Locales en Cambrils | RAC",
+  title: "Reformas de Locales en Cambrils",
   description:
-    "Reforma de locales comerciales en Cambrils, Salou y Reus: paseo marítimo, casco antiguo y polígonos. Cumplimiento normativo y plazos para abrir a tiempo. 877 278 164.",
+    "Reforma de locales comerciales en Cambrils, Salou y Reus: paseo marítimo, casco antiguo y polígonos. Cumplimiento normativo y plazos para abrir a tiempo.",
   alternates: { canonical: "/servicios/reformas-locales" },
   openGraph: {
     title: "Reformas de Locales en Cambrils · R.A Reformas",
@@ -93,6 +93,25 @@ export default function ReformasLocalesPage() {
         </div>
       </section>
 
+      <section className="bg-beige px-5 py-16 md:py-24">
+        <div className="mx-auto max-w-[800px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Negocios de temporada y de todo el año</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] uppercase text-dark leading-[1.1] mb-6">Cómo organizamos la reforma de un local en Cambrils</h2>
+          <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
+          <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
+            <p>Un local en el paseo del Port no tiene las mismas prisas que una consulta en una calle interior de la Vila. Lo primero es entender el negocio: si vive del verano, si abre todo el año y qué licencia necesita para funcionar.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Calendario hacia atrás desde la apertura</h3>
+            <p>En hostelería y comercio de playa, la fecha que manda es la de apertura. Partimos de ella y vamos hacia atrás: pedidos de mobiliario y maquinaria, instalaciones, acabados y, antes de todo, la documentación para el Ajuntament. Así sabes desde el primer día qué semana hay que tener decidido cada elemento.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Trámites y documentación técnica</h3>
+            <p>Según la actividad y el alcance de la obra, el Ajuntament de Cambrils pedirá una comunicación previa, una licencia de obras o un proyecto técnico con la documentación de actividad. Trabajamos con técnicos colegiados que redactan y firman lo necesario, y coordinamos la obra para que lo construido coincida con lo presentado. Es la forma más segura de que la inspección no retrase la apertura.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Locales junto al mar</h3>
+            <p>En los bajos del paseo marítimo el salitre y la arena entran con cada cliente. Elegimos pavimentos antideslizantes que soporten el tránsito, carpintería exterior que no se corroa, cierres metálicos tratados y una instalación eléctrica protegida frente a la humedad. Si el local tiene terraza, estudiamos también el desagüe del suelo y los toldos.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Pisos para alquiler turístico y pequeñas oficinas</h3>
+            <p>Además de bares y tiendas, adecuamos apartamentos para alquiler vacacional y oficinas de pequeño tamaño. En los primeros, la resistencia de los materiales es lo que más importa; si es tu caso, mira también cómo trabajamos las <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas de pisos</Link>. Si tu negocio está fuera de Cambrils, también nos movemos a <Link href="/zonas/reformas-salou" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">Salou</Link> y a <Link href="/zonas/reformas-vila-seca" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">Vila-seca y La Pineda</Link>.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-beige-warm px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-14">
@@ -106,6 +125,7 @@ export default function ReformasLocalesPage() {
               { q: "¿Cuánto se tarda?", a: "Comercio sin actividad regulada: 4-6 semanas. Restaurante o bar (con cocina y salida de humos): 8-12 semanas. Apartamento turístico con licencia HUT: 6-10 semanas. Plazos firmes en contrato." },
               { q: "¿Tramitáis la licencia de actividad?", a: "Sí. Trabajamos con técnicos colegiados que firman el proyecto y la documentación de actividad para presentar en el Ayuntamiento de Cambrils, Salou, Reus o municipio que corresponda." },
               { q: "¿Trabajáis con propietarios o también con arrendatarios?", a: "Con ambos. En arrendamientos, antes de empezar revisamos el contrato para confirmar que el inquilino puede ejecutar la obra y qué retorna al propietario al final." },
+              { q: "¿Podéis trabajar por la noche o con el local abierto?", a: "Depende de la actividad y de las ordenanzas de ruido. En comercios se pueden hacer fases con el local abierto y zonas cerradas al público; en hostelería suele ser mejor concentrar la obra en temporada baja. Lo valoramos en la visita." },
             ].map((faq, i) => (
               <details key={i} className="group bg-white rounded-[12px] shadow-sm overflow-hidden">
                 <summary className="flex items-center gap-4 p-6 cursor-pointer list-none [&::-webkit-details-marker]:hidden">

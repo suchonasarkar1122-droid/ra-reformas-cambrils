@@ -7,7 +7,7 @@ import ServiceSchema from "@/components/ServiceSchema";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas de Pisos en Cambrils | RAC",
+  title: "Reformas de Pisos en Cambrils",
   description:
     "Renovación y reforma de pisos a medida en Cambrils Mar, Vilafortuny, Centre Vila y L'Esquirol. Plantilla propia, coste pactado, garantía firmada. 877 278 164.",
   alternates: { canonical: "/servicios/reformas-pisos" },
@@ -92,6 +92,25 @@ export default function ReformasPisosPage() {
         </div>
       </section>
 
+      <section className="bg-beige px-5 py-16 md:py-24">
+        <div className="mx-auto max-w-[800px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Pisos de costa, pisos de vila</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] uppercase text-dark leading-[1.1] mb-6">Qué cambia al reformar un piso según el barrio de Cambrils</h2>
+          <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
+          <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
+            <p>Cambrils tiene muchos tipos de piso en pocos kilómetros. El apartamento de dos dormitorios cerca del puerto, el bloque de los ochenta junto a la playa de la Llosa o el piso del ensanche que se vive todo el año piden decisiones distintas.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Pisos de veraneo que pasan a vivienda habitual</h3>
+            <p>Cada vez más propietarios convierten el apartamento de vacaciones en su casa todo el año. Lo que en agosto funcionaba (ventanas de corredera sin aislar, suelo de terrazo frío, un solo radiador eléctrico) en enero se queda corto. En estos casos priorizamos carpintería con rotura de puente térmico, una climatización eficiente y armarios de verdad, porque en verano casi nadie guardaba nada.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Edificios en primera y segunda línea</h3>
+            <p>Cerca del mar las barandillas, las persianas y los marcos sufren el salitre más que en el interior. Revisamos el estado de las terrazas, la impermeabilización del suelo exterior y las juntas de las ventanas. Si la fachada o la terraza son elementos comunes, te indicamos qué puedes hacer tú y qué debe aprobar la comunidad.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Instalaciones que hay que renovar</h3>
+            <p>En muchos pisos de los setenta y ochenta el cuadro eléctrico no tiene diferenciales suficientes y las tuberías de hierro galvanizado están al final de su vida. Renovarlas cuando las paredes están abiertas cuesta mucho menos que hacerlo después. Lo mismo ocurre con el baño: si el piso lo necesita, lo incluimos dentro de la misma obra siguiendo lo que explicamos en <Link href="/servicios/reformas-banos" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reformas de baños</Link>.</p>
+            <h3 className="font-body font-bold text-dark text-lg uppercase pt-4">Pisos que se alquilan</h3>
+            <p>Si el piso se va a alquilar, a largo plazo o por temporadas, buscamos acabados resistentes y fáciles de reponer: porcelánico en todo el suelo, pintura lavable y mecanismos estándar que se encuentren en cualquier ferretería de la zona. Para viviendas más grandes, como casas pareadas en Cambrils Badia o chalets en Mas Clariana, el planteamiento se parece más a una <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">reforma integral</Link>. Y si te preocupan las manchas de moho en dormitorios, lee nuestra guía de <Link href="/blog/humedad-condensacion-invierno-cambrils" className="text-accent font-semibold underline underline-offset-2 hover:text-dark">humedad y condensación en invierno</Link>.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-beige-warm px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-14">
@@ -101,10 +120,11 @@ export default function ReformasPisosPage() {
           </div>
           <div className="flex flex-col gap-4">
             {[
-              { q: "¿Reformáis pisos en comunidades de propietarios?", a: "Sí. Hablamos con la administración de la finca, presentamos las medidas pasivas (acústica, ventilación) y respetamos los horarios de trabajo del edificio. En Cambrils Mar y Cambrils centro estamos acostumbrados al casuística de comunidad." },
+              { q: "¿Reformáis pisos en comunidades de propietarios?", a: "Sí. Hablamos con la administración de la finca, presentamos las medidas pasivas (acústica, ventilación) y respetamos los horarios de trabajo del edificio. En Cambrils Mar y Cambrils centro estamos acostumbrados a la casuística de comunidad." },
               { q: "¿Trabajáis pisos para alquiler turístico?", a: "Es una de nuestras especialidades. Materiales que aguantan rotaciones intensivas en julio y agosto, distribuciones funcionales y acabados fáciles de limpiar. También gestionamos la documentación técnica para la licencia de uso turístico." },
               { q: "¿Cuánto cuesta reformar un piso en Cambrils?", a: "Te damos referencia orientativa por m²: desde 380 €/m² en una reforma esencial (pintura, suelos, baño y pequeñas mejoras), desde 480 €/m² en reforma media (cocina, baños, instalaciones, carpintería) y desde 580 €/m² en reforma integral con redistribución y aerotermia. Cada vivienda es un caso. La cifra firme se cierra tras visita técnica gratuita y desglose por partidas." },
               { q: "¿Os ocupáis de licencias y comunidad?", a: "Sí. Tramitamos declaración responsable o licencia mayor según el caso, presentamos la documentación al presidente de la comunidad y coordinamos accesos por escalera y ascensor para no molestar a vecinos." },
+              { q: "¿Cuál es la mejor época para reformar un piso en Cambrils?", a: "De octubre a mayo. Muchas comunidades de la costa ponen limitaciones a las obras ruidosas en pleno verano y, además, en esos meses es más fácil coordinar entregas y aparcamiento en zonas como el Port o el paseo." },
             ].map((faq, i) => (
               <details key={i} className="group bg-white rounded-[12px] shadow-sm overflow-hidden">
                 <summary className="flex items-center gap-4 p-6 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
