@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Guía actualizada de subvenciones para rehabilitar tu vivienda en Cambrils, Salou, Reus y entorno.",
     url: "/blog/ayudas-rehabilitacion-energetica-baix-camp",
     type: "article",
-    images: ["/images/terraza-moderna-suelo-madera-cambrils.webp"],
+    images: ["/images/blog/ayudas-rehabilitacion-energetica-baix-camp.webp"],
   },
 };
 
@@ -23,7 +23,7 @@ export default function BlogAyudasBaixCamp() {
     "@type": "Article",
     headline: "Ayudas a la rehabilitación energética en el Baix Camp 2026",
     description: "Guía de subvenciones para rehabilitación energética en viviendas del Baix Camp y la Costa Daurada.",
-    image: "https://rareformascambrils.es/images/terraza-moderna-suelo-madera-cambrils.webp",
+    image: "https://rareformascambrils.es/images/blog/ayudas-rehabilitacion-energetica-baix-camp.webp",
     author: { "@type": "Organization", name: "R.A Reformas Cambrils" },
     publisher: {
       "@type": "Organization",
@@ -40,7 +40,7 @@ export default function BlogAyudasBaixCamp() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       <section className="relative h-[400px] md:h-[480px] w-full overflow-hidden">
-        <Image src="/images/terraza-moderna-suelo-madera-cambrils.webp" alt="Vivienda rehabilitada energéticamente en el Baix Camp" fill className="object-cover" priority sizes="100vw" />
+        <Image src="/images/blog/ayudas-rehabilitacion-energetica-baix-camp.webp" alt="Ayudas a la rehabilitación energética en el Baix Camp en Cambrils" fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-5">
           <div className="max-w-[820px] flex flex-col items-center gap-4">

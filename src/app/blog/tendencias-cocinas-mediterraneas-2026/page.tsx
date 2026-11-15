@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Tendencias de diseño aplicadas a cocinas en viviendas de la Costa Daurada.",
     url: "/blog/tendencias-cocinas-mediterraneas-2026",
     type: "article",
-    images: ["/images/cocina-abierta-salon-lujo-cambrils.webp"],
+    images: ["/images/blog/tendencias-cocinas-mediterraneas-2026.webp"],
   },
 };
 
@@ -23,7 +23,7 @@ export default function BlogTendenciasCocinas() {
     "@type": "Article",
     headline: "Tendencias en cocinas mediterráneas 2026: luz, materiales y colores",
     description: "Tendencias actuales en cocinas para viviendas en la Costa Daurada y el Baix Camp.",
-    image: "https://rareformascambrils.es/images/cocina-abierta-salon-lujo-cambrils.webp",
+    image: "https://rareformascambrils.es/images/blog/tendencias-cocinas-mediterraneas-2026.webp",
     author: { "@type": "Organization", name: "R.A Reformas Cambrils" },
     publisher: {
       "@type": "Organization",
@@ -40,7 +40,7 @@ export default function BlogTendenciasCocinas() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       <section className="relative h-[400px] md:h-[480px] w-full overflow-hidden">
-        <Image src="/images/cocina-abierta-salon-lujo-cambrils.webp" alt="Cocina mediterránea abierta en Cambrils" fill className="object-cover" priority sizes="100vw" />
+        <Image src="/images/blog/tendencias-cocinas-mediterraneas-2026.webp" alt="Tendencias en cocinas mediterráneas 2026 en Cambrils" fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-5">
           <div className="max-w-[820px] flex flex-col items-center gap-4">

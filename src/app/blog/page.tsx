@@ -22,8 +22,8 @@ const posts = [
     title: "Humedad y condensación en invierno: guía para casas de Cambrils",
     excerpt:
       "Moho, cristales empañados y paredes frías en pisos y chalets de Cambrils: cómo distinguir condensación, filtración y capilaridad, y cuándo conviene una reforma.",
-    image: "/images/dormitorio-renovado-cambrils.webp",
-    imageAlt: "Dormitorio sin humedades en una vivienda de Cambrils",
+    image: "/images/blog/humedad-condensacion-invierno-cambrils.webp",
+    imageAlt: "Humedad y condensación en invierno",
     date: "15 noviembre 2026",
     category: "Mantenimiento",
   },
@@ -32,8 +32,8 @@ const posts = [
     title: "¿Cuánto cuesta reformar una vivienda en Cambrils en 2026?",
     excerpt:
       "Precios actualizados por m² para pisos costeros, casas de pueblo y segundas residencias en Cambrils. Desglose por estancia y consejos para no pasarse del presupuesto.",
-    image: "/images/cocina-comparativa-reforma-completa-cambrils.webp",
-    imageAlt: "Reforma integral en vivienda de Cambrils - costes 2026",
+    image: "/images/blog/cuanto-cuesta-reformar-vivienda-cambrils.webp",
+    imageAlt: "¿Cuánto cuesta reformar una vivienda en Cambrils?",
     date: "12 marzo 2026",
     category: "Guía de precios",
   },
@@ -42,8 +42,8 @@ const posts = [
     title: "Tendencias en cocinas mediterráneas 2026: luz, materiales y colores",
     excerpt:
       "Cocinas que respiran luz mediterránea: islas centrales, encimeras de Dekton, madera natural y soluciones funcionales para casas de la Costa Daurada.",
-    image: "/images/cocina-abierta-salon-lujo-cambrils.webp",
-    imageAlt: "Tendencias cocinas mediterráneas 2026",
+    image: "/images/blog/tendencias-cocinas-mediterraneas-2026.webp",
+    imageAlt: "Tendencias en cocinas mediterráneas 2026 en Cambrils",
     date: "5 marzo 2026",
     category: "Tendencias",
   },
@@ -52,8 +52,8 @@ const posts = [
     title: "Ayudas a la rehabilitación energética en el Baix Camp 2026",
     excerpt:
       "Subvenciones del Programa Next Generation, ayudas autonómicas catalanas y cómo aprovecharlas en viviendas costeras de Cambrils, Salou y el Baix Camp.",
-    image: "/images/terraza-moderna-suelo-madera-cambrils.webp",
-    imageAlt: "Rehabilitación energética en el Baix Camp",
+    image: "/images/blog/ayudas-rehabilitacion-energetica-baix-camp.webp",
+    imageAlt: "Ayudas a la rehabilitación energética en el Baix Camp en Cambrils",
     date: "28 febrero 2026",
     category: "Ayudas y subvenciones",
   },

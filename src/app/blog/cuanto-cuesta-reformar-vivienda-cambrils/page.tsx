@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Precios reales y desglose para reformar viviendas en la Costa Daurada. Guía de R.A Reformas Cambrils.",
     url: "/blog/cuanto-cuesta-reformar-vivienda-cambrils",
     type: "article",
-    images: ["/images/cocina-comparativa-reforma-completa-cambrils.webp"],
+    images: ["/images/blog/cuanto-cuesta-reformar-vivienda-cambrils.webp"],
   },
 };
 
@@ -23,7 +23,7 @@ export default function BlogCosteCambrils() {
     "@type": "Article",
     headline: "¿Cuánto cuesta reformar una vivienda en Cambrils en 2026?",
     description: "Guía de precios actualizada para reformar viviendas en Cambrils y el Baix Camp.",
-    image: "https://rareformascambrils.es/images/cocina-comparativa-reforma-completa-cambrils.webp",
+    image: "https://rareformascambrils.es/images/blog/cuanto-cuesta-reformar-vivienda-cambrils.webp",
     author: { "@type": "Organization", name: "R.A Reformas Cambrils" },
     publisher: {
       "@type": "Organization",
@@ -40,7 +40,7 @@ export default function BlogCosteCambrils() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       <section className="relative h-[400px] md:h-[480px] w-full overflow-hidden">
-        <Image src="/images/cocina-comparativa-reforma-completa-cambrils.webp" alt="Reforma integral en vivienda de Cambrils" fill className="object-cover" priority sizes="100vw" />
+        <Image src="/images/blog/cuanto-cuesta-reformar-vivienda-cambrils.webp" alt="¿Cuánto cuesta reformar una vivienda en Cambrils?" fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-5">
           <div className="max-w-[820px] flex flex-col items-center gap-4">

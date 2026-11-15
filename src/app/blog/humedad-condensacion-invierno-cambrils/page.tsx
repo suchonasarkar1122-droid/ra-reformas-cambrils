@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Guía práctica para evitar moho y condensación en viviendas de la costa de Cambrils durante el invierno.",
     url: "/blog/humedad-condensacion-invierno-cambrils",
     type: "article",
-    images: ["/images/dormitorio-renovado-cambrils.webp"],
+    images: ["/images/blog/humedad-condensacion-invierno-cambrils.webp"],
   },
 };
 
@@ -26,7 +26,7 @@ export default function BlogHumedadCondensacion() {
     "@type": "Article",
     headline: "Humedad y condensación en invierno: guía para casas de Cambrils",
     description: "Cómo distinguir condensación, filtración y capilaridad en viviendas de Cambrils, qué hacer en invierno y cuándo plantear una reforma.",
-    image: "https://rareformascambrils.es/images/dormitorio-renovado-cambrils.webp",
+    image: "https://rareformascambrils.es/images/blog/humedad-condensacion-invierno-cambrils.webp",
     author: { "@type": "Organization", name: "R.A Reformas Cambrils" },
     publisher: {
       "@type": "Organization",
@@ -43,7 +43,7 @@ export default function BlogHumedadCondensacion() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       <section className="relative h-[400px] md:h-[480px] w-full overflow-hidden">
-        <Image src="/images/dormitorio-renovado-cambrils.webp" alt="Dormitorio reformado sin humedades en Cambrils" fill className="object-cover" priority sizes="100vw" />
+        <Image src="/images/blog/humedad-condensacion-invierno-cambrils.webp" alt="Humedad y condensación en invierno" fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-5">
           <div className="max-w-[820px] flex flex-col items-center gap-4">
