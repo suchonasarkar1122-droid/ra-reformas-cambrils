@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     template: "%s | R.A Reformas",
   },
   description:
-    "Empresa de reformas en Cambrils con sello mediterráneo. Pisos, casas de pueblo, segundas residencias, cocinas y baños llave en mano. Presupuesto sin coste: 877 278 164.",
+    "Reformas en Cambrils: pisos, casas de pueblo y segundas residencias. Cocinas y baños llave en mano. Presupuesto sin coste: 877 278 164.",
   authors: [{ name: "R.A Reformas Cambrils" }],
   creator: "R.A Reformas Cambrils",
   publisher: "R.A Reformas Cambrils",

@@ -48,10 +48,16 @@ export default function StructuredData() {
     ],
   };
 
+  const website = {"@context":"https://schema.org","@type":"WebSite","@id":"https://rareformascambrils.es/#website","url":"https://rareformascambrils.es","name":"R.A Reformas Cambrils","inLanguage":"es-ES","publisher":{"@id":"https://rareformascambrils.es/#business"}};
+
+
   return (
+    <>
     <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
     />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }} />
+    </>
   );
 }
