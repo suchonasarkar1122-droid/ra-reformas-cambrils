@@ -32,20 +32,7 @@ export default function StructuredData() {
       { "@type": "City", name: "Riudoms" },
     ],
     sameAs: [],
-    openingHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "08:30",
-        closes: "19:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Saturday",
-        opens: "09:00",
-        closes: "13:30",
-      },
-    ],
+    openingHoursSpecification: [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "20:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00"}],
   };
 
   const website = {"@context":"https://schema.org","@type":"WebSite","@id":"https://rareformascambrils.es/#website","url":"https://rareformascambrils.es","name":"R.A Reformas Cambrils","inLanguage":"es-ES","publisher":{"@id":"https://rareformascambrils.es/#business"}};

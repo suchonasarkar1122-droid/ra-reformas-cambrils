@@ -73,7 +73,7 @@ export default function ContactoPage() {
                 <a href="tel:+34877278164" className="font-body font-semibold text-accent text-lg hover:underline">
                   877 278 164
                 </a>
-                <p className="text-subtitle text-sm mt-1">Lunes a viernes: 8:30 - 19:00</p>
+                <p className="text-subtitle text-sm mt-1">Horario: Lunes - Viernes: 8:00 - 20:00 · Sábado: 8:00 - 14:00</p>
               </div>
 
               {/* WhatsApp */}
@@ -142,19 +142,19 @@ export default function ContactoPage() {
                   <h3 className="font-body font-bold text-dark text-base uppercase">Horario</h3>
                 </div>
                 <ul className="space-y-1 text-sm">
-                  <li className="flex justify-between">
-                    <span className="text-subtitle">Lunes a viernes</span>
-                    <span className="font-body font-semibold text-dark">8:30 - 19:00</span>
+ <li className="flex justify-between">
+                    <span className="text-subtitle">Lunes - Viernes</span>
+                    <span className="font-body font-semibold text-dark">8:00 - 20:00</span>
                   </li>
-                  <li className="flex justify-between">
+ <li className="flex justify-between">
                     <span className="text-subtitle">Sábado</span>
-                    <span className="font-body font-semibold text-dark">9:00 - 13:30</span>
+                    <span className="font-body font-semibold text-dark">8:00 - 14:00</span>
                   </li>
-                  <li className="flex justify-between">
+ <li className="flex justify-between">
                     <span className="text-subtitle">Domingo</span>
                     <span className="font-body font-semibold text-dark">Cerrado</span>
                   </li>
-                </ul>
+ </ul>
               </div>
             </aside>
           </div>
